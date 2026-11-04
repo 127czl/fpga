@@ -1,0 +1,124 @@
+CellDelayOverride {
+  Cell: "sys_pll~PLL"
+  DelayOverride {
+    from: "CLKIN[2]"
+    to: "CLKOUT0"
+    Type: "CLK_TO_Q"
+    value_min: -1217
+    value_max: -1881
+  }
+  DelayOverride {
+    from: "CLKIN[2]"
+    to: "CLKOUT1"
+    Type: "CLK_TO_Q"
+    value_min: -1217
+    value_max: -1881
+  }
+  DelayOverride {
+    from: "CLKIN[2]"
+    to: "CLKOUT2"
+    Type: "CLK_TO_Q"
+    value_min: -1217
+    value_max: -1881
+  }
+  DelayOverride {
+    from: "CLKIN[2]"
+    to: "CLKOUT3"
+    Type: "CLK_TO_Q"
+    value_min: -1217
+    value_max: -1881
+  }
+}
+CellDelayOverride {
+  Cell: "ddr_pll~PLL"
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT0"
+    Type: "CLK_TO_Q"
+    value_min: -1150
+    value_max: -1778
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT1"
+    Type: "CLK_TO_Q"
+    value_min: -1150
+    value_max: -1778
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT2"
+    Type: "CLK_TO_Q"
+    value_min: -1150
+    value_max: -1778
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT3"
+    Type: "CLK_TO_Q"
+    value_min: -1150
+    value_max: -1778
+  }
+}
+CellDelayOverride {
+  Cell: "dsi_pll~PLL"
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT0"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT1"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT2"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT3"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+}
+CellDelayOverride {
+  Cell: "lvds_pll~PLL"
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT0"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT1"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT2"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+  DelayOverride {
+    from: "CLKIN[3]"
+    to: "CLKOUT3"
+    Type: "CLK_TO_Q"
+    value_min: 0
+    value_max: 0
+  }
+}
