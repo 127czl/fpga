@@ -1,0 +1,234 @@
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Router Setup
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : [Setup Parallel Routing Scheduler]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Route Circuit with 32 threads
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.80% (from 3235ps to 3209ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 1976ps to 1976ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4191ps to 4191ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 1971ps to 1971ps)
+INFO     : CSS improved CPD of clock twd_clk by 0.00% (from 2130ps to 2130ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 5399ps to 5399ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 0.77% (from 6454ps to 6404ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 3063ps to 3063ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.12% (from 3235ps to 3231ps in 5 iterations and 0.6 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Overridding delay budgets for 262 synchronizer-related pins
+INFO     : Iter  1: overlap=127422  heapops=16950790   (0%) cpd=6404  frr=1.00  msec=3761
+INFO     : [Setup Delay Budgets | 621.1 ms]
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Hold Fixing
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Total min wire delay:  15265429
+INFO     : Hold fix wire delay:       2110
+INFO     : Hold fix delay ratio:     0.01%
+INFO     : Pins requiring hold fix:  0.03%
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter  2: overlap=71323   heapops=13571450   (19%) cpd=6381  frr=1.00  msec=1894
+INFO     : Iter  3: overlap=54361   heapops=12782091   (28%) cpd=6379  frr=1.00  msec=1850
+INFO     : Iter  4: overlap=42137   heapops=12205580   (34%) cpd=6381  frr=1.00  msec=1792
+INFO     : Iter  5: overlap=31779   heapops=11291441   (43%) cpd=6381  frr=1.00  msec=1697
+INFO     : Iter  6: overlap=23198   heapops=10435416   (51%) cpd=6402  frr=1.00  msec=1621
+INFO     : Iter  7: overlap=17175   heapops=9542314    (57%) cpd=6383  frr=1.00  msec=1546
+INFO     : Iter  8: overlap=12113   heapops=8452818    (65%) cpd=6425  frr=1.00  msec=1418
+INFO     : Iter  9: overlap=7775    heapops=6247543    (75%) cpd=6435  frr=1.00  msec=1082
+INFO     : Iter 10: overlap=4912    heapops=5387045    (77%) cpd=6435  frr=1.00  msec=1026
+INFO     : Iter 11: overlap=2884    heapops=3872885    (84%) cpd=6497  frr=1.01  msec=804
+INFO     : Iter 12: overlap=1626    heapops=3331918    (87%) cpd=6461  frr=1.01  msec=898
+INFO     : Iter 13: overlap=851     heapops=2100385    (88%) cpd=6467  frr=1.01  msec=638
+INFO     : Iter 14: overlap=474     heapops=1524238    (90%) cpd=6517  frr=1.02  msec=517
+INFO     : Iter 15: overlap=240     heapops=1122758    (90%) cpd=6492  frr=1.01  msec=421
+INFO     : [Rebuild Parallel Routing Scheduler]
+INFO     : Iter 16: overlap=111     heapops=852736     (90%) cpd=6609  frr=1.03  msec=482
+INFO     : Iter 17: overlap=68      heapops=835263     (90%) cpd=6507  frr=1.02  msec=375
+INFO     : Iter 18: overlap=32      heapops=898645     (91%) cpd=6579  frr=1.03  msec=431
+INFO     : Iter 19: overlap=25      heapops=630161     (91%) cpd=6489  frr=1.01  msec=330
+INFO     : Iter 20: overlap=8       heapops=408434     (91%) cpd=6603  frr=1.03  msec=243
+INFO     : Iter 21: overlap=10      heapops=423498     (91%) cpd=6488  frr=1.01  msec=246
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Beneficial skew enabled! Optimizing clock skews ... 
+INFO     : Non-legalized beneficial skew improved geomean CPD by 0.00% (from 3430ps to 3430ps)
+INFO     : CSS improved CPD of clock tdqss_clk by 0.00% (from 2033ps to 2033ps)
+INFO     : CSS improved CPD of clock core_clk by 0.00% (from 4401ps to 4401ps)
+INFO     : CSS improved CPD of clock tac_clk by 0.00% (from 2035ps to 2035ps)
+INFO     : CSS improved CPD of clock twd_clk by 2.45% (from 2244ps to 2189ps)
+INFO     : CSS improved CPD of clock clk_sys by 0.00% (from 6397ps to 6397ps)
+INFO     : CSS improved CPD of clock clk_pixel_2x by 1.89% (from 6623ps to 6498ps)
+INFO     : CSS improved CPD of clock csi_rxc_i by 0.00% (from 3227ps to 3227ps)
+INFO     : Discretized beneficial skew improved geomean CPD by 0.64% (from 3430ps to 3408ps in 1 iterations and 0.7 sec)
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Iter 22: overlap=0       heapops=387150     (91%) cpd=6498  frr=1.01  msec=951
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Result
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing Succeeded in 25.24 seconds taking 22 iterations! 
+INFO     : 
+INFO     : First iteration critical path delay = 6.404 ns 
+INFO     : Last iteration critical path delay  = 6.498 ns (ratio = 1.01)
+INFO     : Max Routing Heap Size = 100,008
+INFO     : Routing trace written to file 'build_out\Ti60_Demo.troutingtraces' 
+INFO     : ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INFO     : Routing took 39.703836 seconds [FlowMsg::StageDuration]
+INFO     :     Routing took 108.40625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Routing virtual memory usage: begin = 176.788 MB, end = 513.528 MB, delta = 336.74 MB [FlowMsg::VMUsage]
+INFO     :     Routing peak virtual memory usage = 631.512 MB [FlowMsg::VMUsage::Peak]
+INFO     : Routing resident set memory usage: begin = 197.024 MB, end = 525.312 MB, delta = 328.288 MB [FlowMsg::RSSUsage]
+INFO     :     Routing peak resident set memory usage = 605.576 MB [FlowMsg::RSSUsage::Peak]
+           ***** Beginning stage final timing analysis ... *****
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'Ti60_Demo.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+tdqss_clk       2.143        466.636         (R-R)
+core_clk        4.511        221.680         (R-R)
+tac_clk         2.145        466.200         (R-R)
+twd_clk         2.299        434.972         (R-R)
+clk_sys         6.507        153.681         (R-R)
+clk_pixel_2x    6.608        151.332         (R-R)
+csi_rxc_i       3.337        299.670         (R-R)
+
+Geomean max period: 3.531
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            2.604           0.461            (R-R)
+  tdqss_clk        core_clk             2.604           2.119            (R-R)
+  core_clk         tdqss_clk            2.604           1.043            (R-R)
+  core_clk         core_clk             5.208           0.697            (R-R)
+  core_clk         tac_clk              2.604           2.086            (R-R)
+  core_clk         twd_clk              0.541           0.333            (R-R)
+  core_clk         clk_sys              5.000           2.877            (R-R)
+  tac_clk          core_clk             2.604           2.111            (R-R)
+  tac_clk          tac_clk              2.604           0.459            (R-R)
+  twd_clk          twd_clk              2.604           0.305            (R-R)
+  clk_sys          core_clk             5.000           2.881            (R-R)
+  clk_sys          clk_sys             10.417           3.910            (R-R)
+  clk_pixel_2x     clk_pixel_2x         6.720           0.112            (R-R)
+  csi_rxc_i        csi_rxc_i            6.000           2.663            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            0.000           0.097            (R-R)
+  tdqss_clk        core_clk             0.000           0.153            (R-R)
+  core_clk         tdqss_clk            0.000           0.058            (R-R)
+  core_clk         core_clk             0.000           0.026            (R-R)
+  core_clk         tac_clk              0.000           0.070            (R-R)
+  core_clk         twd_clk             -1.883           2.016            (R-R)
+  core_clk         clk_sys              0.000           0.081            (R-R)
+  tac_clk          core_clk             0.000           0.159            (R-R)
+  tac_clk          tac_clk              0.000           0.026            (R-R)
+  twd_clk          twd_clk              0.000           0.052            (R-R)
+  clk_sys          core_clk             0.000           0.145            (R-R)
+  clk_sys          clk_sys              0.000           0.035            (R-R)
+  clk_pixel_2x     clk_pixel_2x         0.000           0.026            (R-R)
+  csi_rxc_i        csi_rxc_i            0.000           0.017            (R-R)
+
+INFO     : Write Timing Report to "build_out\Ti60_Demo.timing.rpt" ...
+INFO     : final timing analysis took 14.2315465 seconds [FlowMsg::StageDuration]
+INFO     :     final timing analysis took 15.5625 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : final timing analysis virtual memory usage: begin = 447.32 MB, end = 585.812 MB, delta = 138.492 MB [FlowMsg::VMUsage]
+INFO     :     final timing analysis peak virtual memory usage = 631.512 MB [FlowMsg::VMUsage::Peak]
+INFO     : final timing analysis resident set memory usage: begin = 458.004 MB, end = 596.348 MB, delta = 138.344 MB [FlowMsg::RSSUsage]
+INFO     :     final timing analysis peak resident set memory usage = 605.576 MB [FlowMsg::RSSUsage::Peak]
+           ***** Ending stage final timing analysis *****
+           
+           ***** Beginning stage bitstream generation ... *****
+INFO     : Reading core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Finished writing bitstream file build_work\Ti60_Demo.lbf.
+INFO     : Bitstream generation took 1.558891 seconds [FlowMsg::StageDuration]
+INFO     :     Bitstream generation took 1.375 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Bitstream generation virtual memory usage: begin = 394.884 MB, end = 593.748 MB, delta = 198.864 MB [FlowMsg::VMUsage]
+INFO     :     Bitstream generation peak virtual memory usage = 631.512 MB [FlowMsg::VMUsage::Peak]
+INFO     : Bitstream generation resident set memory usage: begin = 408.104 MB, end = 608.764 MB, delta = 200.66 MB [FlowMsg::RSSUsage]
+INFO     :     Bitstream generation peak resident set memory usage = 608.764 MB [FlowMsg::RSSUsage::Peak]
+INFO     : The entire flow of EFX_PNR took 114.0174684 seconds [FlowMsg::StageDuration]
+INFO     :     The entire flow of EFX_PNR took 396.203125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : The entire flow of EFX_PNR virtual memory usage: begin = 20.052 MB, end = 593.748 MB, delta = 573.696 MB [FlowMsg::VMUsage]
+INFO     :     The entire flow of EFX_PNR peak virtual memory usage = 631.512 MB [FlowMsg::VMUsage::Peak]
+INFO     : The entire flow of EFX_PNR resident set memory usage: begin = 22.908 MB, end = 608.804 MB, delta = 585.896 MB [FlowMsg::RSSUsage]
+INFO     :     The entire flow of EFX_PNR peak resident set memory usage = 608.804 MB [FlowMsg::RSSUsage::Peak]

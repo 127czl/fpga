@@ -1,0 +1,345 @@
+           
+           Elitestek FPGA Placement and Routing.
+           Version: 2026.1.132 
+           Compiled: May 29 2026.
+           
+           Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+WARNING  : Found 71 warnings in the post-synthesis netlist.
+INFO     : Reading core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : Reading core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+INFO     : XLR count after merging: 45501
+INFO     : Netlist has 30519 luts, 14400 ffs and 6620 adders [PackerMsg::NetlistStatistics]
+INFO     : Packed into 45501 clusters with 2.7212589(1.0084833) inputs(outputs) per cluster for a total of 123820(45887) inputs(outputs) [PackerMsg::ClusterPackingStatistics]
+INFO     : Packed into 45501 xlrs with 2.7212589(1.0084833) inputs(outputs) per xlr for a total of 123820(45887) inputs(outputs) [PackerMsg::XLRPackingStatistics]
+INFO     : Packed 8 fracturable DSPs into 8 clusters [PackerMsg::DSPPackingStatistics]
+INFO     : Packing took 2.8520385 seconds [FlowMsg::StageDuration]
+INFO     :     Packing took 5.8125 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Packing virtual memory usage: begin = 59.54 MB, end = 403.644 MB, delta = 344.104 MB [FlowMsg::VMUsage]
+INFO     :     Packing peak virtual memory usage = 403.652 MB [FlowMsg::VMUsage::Peak]
+INFO     : Packing resident set memory usage: begin = 64.456 MB, end = 410.416 MB, delta = 345.96 MB [FlowMsg::RSSUsage]
+INFO     :     Packing peak resident set memory usage = 410.416 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'Ti60_Demo.pt.sdc' parsed successfully.
+INFO     : Reading core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileReading]
+INFO     : Successfully read core interface constraints file "build_out\Ti60_Demo.interface.csv" [DBMsg::CoreInterfaceConstraintsFileLoadSuccess]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/dq_pipe_ap[0]~FF is driven by a non-sequential source LUT__95347:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.rd_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/dff_9/i2_2 is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell u_axi4_ctrl/Gen_FIFO_W32.u_W0_FIFO_32/u_efx_fifo_top/genblk2.wr_rst[0]~FF is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/dff_11/i2_2 is driven by a non-sequential source GND:O [FlowMsg::SyncHeadDrivenByNonSeq]
+WARNING  : Synchronizer chain starting at cell ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/r_wr_start_p[0]~FF is driven by a non-sequential source LUT__95318:O [FlowMsg::SyncHeadDrivenByNonSeq]
+INFO     : Starting Global Placer with 32 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1    20218710             193         1.5%
+INFO     :           2    15362717             175         2.2%
+INFO     :           3    10215992             175         3.7%
+INFO     :           4     6983050              73         6.6%
+INFO     :           5     4752965              -5         9.9%
+INFO     :           6     3660555            -406        14.9%
+INFO     :           7     3076046            -660        22.1%
+INFO     :           8     2571745            -888        32.1%
+INFO     :           9     2360831            -815        41.0%
+INFO     :          10     2247312            -968        47.1%
+INFO     :          11     2175352           -1067        51.6%
+INFO     :          12     2188312           -1012        51.7%
+INFO     :          13     2168405            -915        53.5%
+INFO     :          14     2120007           -1313        55.7%
+INFO     :          15     2128457            -928        55.7%
+INFO     :          16     2146036            -940        57.2%
+INFO     :          17     2106819           -1028        58.6%
+INFO     :          18     2092527            -952        59.7%
+INFO     :          19     2079614            -995        61.0%
+INFO     :          20     2086226           -1067        61.7%
+INFO     :          21     2072032           -1049        63.7%
+INFO     :          22     2108368           -1043        63.7%
+INFO     :          23     2114320           -1013        63.8%
+INFO     :          24     2083071           -1096        66.4%
+INFO     :          25     2116371            -884        66.4%
+INFO     :          26     2106393           -1058        67.3%
+INFO     :          27     2112108           -1169        68.2%
+INFO     :          28     2127362           -1028        68.6%
+INFO     :          29     2160314            -883        68.6%
+INFO     :          30     2157239            -956        69.2%
+INFO     :          31     2199204            -864        69.2%
+INFO     :          32     2151191            -998        71.1%
+INFO     :          33     2138292           -1031        71.2%
+INFO     :          34     2074716           -1241        71.2%
+INFO     :          35     2035907           -1199        74.2%
+INFO     :          36     2068435           -1154        74.2%
+INFO     :          37     2055024           -1096        76.1%
+INFO     :          38     2101673           -1114        76.1%
+INFO     :          39     2118133           -1319        76.3%
+INFO     :          40     2036993           -1433        80.9%
+INFO     :          41     2172067           -1552        80.9%
+INFO     :          42     2359310           -1656        80.9%
+INFO     :          43     2156489           -1660        81.7%
+INFO     :          44     2125034           -1549        82.6%
+INFO     :          45     2095659           -1653        84.1%
+INFO     :          46     2075010           -1740        85.2%
+INFO     :          47     2065503           -1427        86.2%
+INFO     :          48     2059351           -1605        87.1%
+INFO     :          49     2062359           -1466        88.1%
+INFO     : GP: best_placement: wpd: 6743.74
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0     1255497            9197        30.0
+INFO     :           1     1445759            7853        28.5
+INFO     :           2     1326273            7044        26.4
+INFO     :           3     1227809            7043        24.2
+INFO     :           4     1175185            6921        22.0
+INFO     :           5     1136082            6785        20.0
+INFO     :           6     1103015            6698        18.1
+INFO     :           7     1076338            6812        16.3
+INFO     :           8     1056007            6629        14.7
+INFO     :           9     1036114            6599        13.2
+INFO     :          10     1022239            6599        11.9
+INFO     :          11     1008717            2008        10.7
+INFO     :          12      997614            1934         9.6
+INFO     :          13      986145            1934         8.6
+INFO     :          14      978371            1934         7.7
+INFO     :          15      970142            1934         7.0
+INFO     :          16      960462            1944         6.2
+INFO     :          17      953164            2150         5.6
+INFO     : DP: best_placement: wpd: 37.4051
+INFO     : Placement successful: 45710 cells are placed
+INFO     : Peak congestion smeared over 4x4 of the chip is 1.46621 at 176,264
+INFO     : Peak congestion smeared over 1/16 of the chip is 1.08188 at 108,42
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.687391 at 58,323
+INFO     : Congestion-weighted HPWL per net: 28.745
+INFO     : Post-placement cluster-level checks is successful
+INFO     : Post-placement primitive-level checks is successful
+INFO     : Placement took 41.0393652 seconds [FlowMsg::StageDuration]
+INFO     :     Placement took 250.75 seconds (approximately) in total CPU time [FlowMsg::StageDuration::CPUTime]
+INFO     : Placement virtual memory usage: begin = 103.62 MB, end = 306.088 MB, delta = 202.468 MB [FlowMsg::VMUsage]
+INFO     :     Placement peak virtual memory usage = 470.416 MB [FlowMsg::VMUsage::Peak]
+INFO     : Placement resident set memory usage: begin = 117.596 MB, end = 324.78 MB, delta = 207.184 MB [FlowMsg::RSSUsage]
+INFO     :     Placement peak resident set memory usage = 489.368 MB [FlowMsg::RSSUsage::Peak]
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid object(s) found for 'dsi_refclk_i'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:14] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid object(s) found for 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:23] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid object(s) found for 'clk_54m'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] No valid pin(s) found for clock
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:29] Unable to run 'create_clock' constraint due to warnings found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:36] set_clock_groups: Defaulting to -exclusive since none of the required option was specified
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:53] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:64] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] set_false_path: Object(s) specified for -from option contains no vaild startpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:66] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No clocks matched 'clk_pixel'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] set_false_path: Object(s) specified for -to option contains no vaild endpoints
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:79] Unable to run 'set_false_path' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:102] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[0]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:103] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:104] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[1]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:105] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:106] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[2]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:107] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:108] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[3]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:109] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:110] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[4]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:111] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:112] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[5]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:113] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:114] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[6]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:115] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:116] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_data[7]'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:117] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:118] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_href'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:119] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:120] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING  : No ports matched 'cmos_vsync'
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] set_input_delay: No valid input port(s) found
+WARNING  : [SDC D:/Codex/2026-09-24/wo-r/outputs/Ti60_v102clear_Competition_20261103/Ti60_Demo.pt.sdc:121] Unable to run 'set_input_delay' constraint due to warnings found
+INFO     : SDC file 'Ti60_Demo.pt.sdc' parsed successfully.
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+tdqss_clk       1.958        510.725         (R-R)
+core_clk        4.258        234.852         (R-R)
+tac_clk         2.054        486.855         (R-R)
+twd_clk         2.044        489.237         (R-R)
+clk_sys         5.636        177.431         (R-R)
+clk_pixel_2x    5.844        171.116         (R-R)
+csi_rxc_i       3.302        302.847         (R-R)
+
+Geomean max period: 3.247
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            2.604           0.646            (R-R)
+  tdqss_clk        core_clk             2.604           2.185            (R-R)
+  core_clk         tdqss_clk            2.604           1.285            (R-R)
+  core_clk         core_clk             5.208           0.950            (R-R)
+  core_clk         tac_clk              2.604           2.024            (R-R)
+  core_clk         twd_clk              0.541           1.040            (R-R)
+  core_clk         clk_sys              5.000           3.835            (R-R)
+  tac_clk          core_clk             2.604           2.072            (R-R)
+  tac_clk          tac_clk              2.604           0.550            (R-R)
+  twd_clk          twd_clk              2.604           0.560            (R-R)
+  clk_sys          core_clk             5.000           3.522            (R-R)
+  clk_sys          clk_sys             10.417           4.781            (R-R)
+  clk_pixel_2x     clk_pixel_2x         6.720           0.876            (R-R)
+  csi_rxc_i        csi_rxc_i            6.000           2.698            (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  tdqss_clk        tdqss_clk            0.000            0.120           (R-R)
+  tdqss_clk        core_clk             0.000            0.175           (R-R)
+  core_clk         tdqss_clk            0.000            0.175           (R-R)
+  core_clk         core_clk             0.000            0.060           (R-R)
+  core_clk         tac_clk              0.000            0.175           (R-R)
+  core_clk         twd_clk             -1.883            1.320           (R-R)
+  core_clk         clk_sys              0.000            0.175           (R-R)
+  tac_clk          core_clk             0.000            0.175           (R-R)
+  tac_clk          tac_clk              0.000           -0.745           (R-R)
+  twd_clk          twd_clk              0.000           -0.182           (R-R)
+  clk_sys          core_clk             0.000            0.175           (R-R)
+  clk_sys          clk_sys              0.000           -0.718           (R-R)
+  clk_pixel_2x     clk_pixel_2x         0.000           -0.581           (R-R)
+  csi_rxc_i        csi_rxc_i            0.000           -0.918           (R-R)
+
+WARNING  : Clock domain between tac_clk (rising) and tac_clk (rising) may not meet (slack: -0.745 ns) the hold (min) timing requirement
+WARNING  : Clock domain between twd_clk (rising) and twd_clk (rising) may not meet (slack: -0.182 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_sys (rising) and clk_sys (rising) may not meet (slack: -0.718 ns) the hold (min) timing requirement
+WARNING  : Clock domain between clk_pixel_2x (rising) and clk_pixel_2x (rising) may not meet (slack: -0.581 ns) the hold (min) timing requirement
+WARNING  : Clock domain between csi_rxc_i (rising) and csi_rxc_i (rising) may not meet (slack: -0.918 ns) the hold (min) timing requirement
+INFO     : Write Timing Report to "build_out/Ti60_Demo.place.timing.rpt" ...

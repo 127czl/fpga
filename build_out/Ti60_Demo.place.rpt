@@ -1,0 +1,114 @@
+
+Elitestek FPGA Placement and Routing.
+Version: 2026.1.132 
+Date: Tue Nov  3 11:07:36 2026
+
+Copyright (C) 2013 - 2026 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|      cmos_data[0]      |    Input     |
+|      cmos_data[1]      |    Input     |
+|     lcd_g7_0_i[0]      |    Input     |
+|     lcd_g7_0_i[1]      |    Input     |
+|     lcd_b7_0_i[2]      |    Input     |
+|     lcd_b7_0_i[3]      |    Input     |
+|     lcd_b7_0_i[4]      |    Input     |
+|     lcd_b7_0_i[5]      |    Input     |
+|     lcd_r7_0_i[6]      |    Input     |
+|     lcd_r7_0_i[7]      |    Input     |
+|     lcd_b7_0_i[6]      |    Input     |
+|     lcd_b7_0_i[7]      |    Input     |
+|       clk_pixel        |    Input     |
+|     lcd_r7_0_i[4]      |    Input     |
+|     lcd_r7_0_i[5]      |    Input     |
+|     lcd_g7_0_i[4]      |    Input     |
+|     lcd_g7_0_i[5]      |    Input     |
+|     lcd_g7_0_i[2]      |    Input     |
+|     lcd_g7_0_i[3]      |    Input     |
+|     lcd_b7_0_i[0]      |    Input     |
+|     lcd_b7_0_i[1]      |    Input     |
+|     lcd_g7_0_i[6]      |    Input     |
+|     lcd_g7_0_i[7]      |    Input     |
+|     lcd_r7_0_i[2]      |    Input     |
+|     lcd_r7_0_i[3]      |    Input     |
+|     lcd_r7_0_i[0]      |    Input     |
+|     lcd_r7_0_i[1]      |    Input     |
+|      lcd_tp_scl_i      |    Input     |
+|      lcd_tp_sda_i      |    Input     |
+|      lcd_tp_int_i      |    Input     |
+|      cmos_data[4]      |    Input     |
+|      cmos_data[6]      |    Input     |
+|      cmos_data[2]      |    Input     |
+|       cmos_vsync       |    Input     |
+|       csi_sda_i        |    Input     |
+|      dsi_refclk_i      |    Input     |
+|        clk_54m         |    Input     |
+|       csi_scl_i        |    Input     |
+|       csi_ctl0_i       |    Input     |
+|       csi_ctl1_i       |    Input     |
+|       uart_rx_i        |    Input     |
+|        clk_25m         |    Input     |
+|    dsi_txd3_lp_p_i     |    Input     |
+|    dsi_txd3_lp_n_i     |    Input     |
+|    dsi_txd0_lp_p_i     |    Input     |
+|    dsi_txd0_lp_n_i     |    Input     |
+|    dsi_txd1_lp_p_i     |    Input     |
+|    dsi_txd1_lp_n_i     |    Input     |
+|    dsi_txd2_lp_p_i     |    Input     |
+|    dsi_txd2_lp_n_i     |    Input     |
+|    csi_rxd2_lp_p_i     |    Input     |
+|    csi_rxd2_lp_n_i     |    Input     |
+|    csi_rxd3_lp_p_i     |    Input     |
+|    csi_rxd3_lp_n_i     |    Input     |
+|    csi_rxd1_lp_p_i     |    Input     |
+|    csi_rxd1_lp_n_i     |    Input     |
+|      cmos_data[7]      |    Input     |
+|      cmos_sdat_IN      |    Input     |
+|       cmos_ctl1        |    Input     |
+|      cmos_data[5]      |    Input     |
+|      cmos_data[3]      |    Input     |
+|       cmos_href        |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- Module Resource Usage Distribution Estimates (begin) ----------
+
+'Module Resource Usage Distribution Estimates' table printed in: build_out\Ti60_Demo.hier_util.rpt
+
+----------- Module Resource Usage Distribution Estimates (end) ----------
+
+Elapsed time for packing: 0 hours 0 minutes 2 seconds
+---------- Resource Summary (begin) ----------
+Inputs: 93 / 1703 (5.46%)
+Outputs: 475 / 2267 (20.95%)
+Global Clocks (GBUF): 15 / 32 (46.88%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 45501 / 60800 (74.84%)
+	XLRs needed for LUT4: 24356 / 60800 (40.06%)
+	XLRs needed for LUT4 + FF: 6163 / 60800 (10.14%)
+	XLRs needed for COMB4: 0 / 60800 (0.00%)
+	XLRs needed for COMB4 + FF: 0 / 60800 (0.00%)
+	XLRs needed for Adder: 6181 / 60800 (10.17%)
+	XLRs needed for Adder + FF: 439 / 60800 (0.72%)
+	XLRs needed for SRL8: 564 / 14720 (3.83%)
+	XLRs needed for SRL8 + FF: 0 / 14720 (0.00%)
+	XLRs needed for FF: 7798 / 60800 (12.83%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 159 / 256 (62.11%)
+DSP Blocks: 50 / 160 (31.25%)
+---------- Resource Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 41 seconds
